@@ -469,7 +469,7 @@ export const Btn13 = () => {
 
 export const Btn14 = () => {
     return (
-        <svg className='absolute top-[58%] left-[-2%]' width="106" height="28" viewBox="0 0 106 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg   width="106" height="28" viewBox="0 0 106 28" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M1 1C1 15.3594 12.6406 27 27 27H105" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
         </svg>
 
@@ -536,15 +536,10 @@ export const Btn17 = () => {
 
 export const Btn18 = () => {
     return (
-        <svg className='absolute top-[76%] left-[-2%]' width="107" height="28" viewBox="0 0 107 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M1.5 1C1.5 15.3594 13.1406 27 27.5 27H105.5" stroke="url(#paint0_linear_2581_11)" strokeWidth="1.5" strokeLinecap="round" />
-            <defs>
-                <linearGradient id="paint0_linear_2581_11" x1="134.466" y1="25.6913" x2="113.531" y2="-37.3975" gradientUnits="userSpaceOnUse">
-                    <stop stopColor="#51C8EF" />
-                    <stop offset="1" stopColor="#7AF57A" />
-                </linearGradient>
-            </defs>
+        <svg width="106" height="28" viewBox="0 0 106 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 1C1 15.3594 12.6406 27 27 27H105" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
         </svg>
+        
 
 
     )

@@ -5,7 +5,7 @@ import { Elips1, Elips2, Svg } from './Icon'
 function Aviator() {
   return (
 
-    <section className='bg-[#00141B] mt-[-2px] relative overflow-x-clip'>
+    <section className='bg-[#00141B] mt-[-2px] relative overflow-x-clip' id='hogar'>
       <div className='container mx-auto max-w-[1140px] px-[12px]'>
         <div className='flex flex-wrap mx-[-12px] flex-row '>
           <div className='w-full  md:w-[50%] px-[12px] pt-[74px] mb-[100px] z-20 max-md:mb-[20px]'>

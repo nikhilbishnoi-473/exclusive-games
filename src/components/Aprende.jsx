@@ -4,7 +4,7 @@ import { Elips3 } from './Icon'
 
 function Aprende() {
   return (
-    <section className='lg:bg-[#03141A]   bg_image_3  mt-[-2px] '>
+    <section className='lg:bg-[#03141A]   bg_image_3  mt-[-2px] ' id='mision'>
       <div className='container z-20 relative mx-auto max-w-[1140px] px-[12px]'>
         <div className='flex flex-wrap mx-[-12px] flex-row pt-[322px] max-lg:pt-[0px] max-lg:pb-[265px] max-md:pb-[80px] pb-[324px]'>
           <div className='w-full lg:w-[50%] max-lg:flex max-lg:justify-center max-lg:items-center flex-col px-[12px] pt-[79.5px]'>
@@ -16,7 +16,7 @@ function Aprende() {
                   <span className='relative z-20'>Aprende más</span>
                 </button>
               </div>
-              <div className='absolute max-md:hidden top-[60%] left-[-1%]'>
+              <div className='absolute max-md:hidden top-[53%] left-[-1%]'>
                 <span><Elips3/></span>
 
               </div>

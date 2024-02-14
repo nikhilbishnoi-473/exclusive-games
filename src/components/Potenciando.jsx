@@ -13,7 +13,7 @@ function Potenciando() {
             <div className='container z-20  mx-auto max-w-[1140px] px-[12px]'>
                 <div className='flex flex-wrap  mx-[-12px] flex-row'>
                     <div className='w-full lg:w-[50%]  max-lg:justify-center flex px-[12px] pt-[90px]'>
-                        <img className='' src={jackpot} alt="jackpot" />
+                        <img className='z-30' src={jackpot} alt="jackpot" />
                     </div>
                     <div className='w-full lg:w-[50%] px-[12px] pt-[90px] max-lg:justify-center flex lg:justify-end'>
                         <div className='flex flex-col'>

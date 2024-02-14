@@ -8,7 +8,7 @@ import image7 from '../images/image7.png'
 import { Btn3, Btn4, Btn5, Btn6, Btn7, Btn8, Svg11, Svg14, Svg4, Svg5, Svg6 } from './Icon'
 function Nuestros() {
    return (
-      <section className='lg:bg-[#00141B] max-lg:bg-white overflow-hidden  relative  bg_image_1 mt-[-2px]   '>
+      <section className='lg:bg-[#00141B] max-lg:bg-white overflow-hidden  relative  bg_image_1 mt-[-2px]   ' id='trag'>
          <div className='container z-20 relative mx-auto max-w-[1140px]  px-[12px] '>
             <div className='flex justify-center max-md:pt-[0px]  pt-[270px]'>
                <h2 className='font-Anton font-[400] text-[48px] max-w-[552px]   max-md:pt-[100px] max-md:text-[35px]'>Nuestros Atributos de Marca</h2>
@@ -173,7 +173,7 @@ function Nuestros() {
                      <span className='relative z-10'>Mostrar más</span>
                   </button>
 
-                  <div className='absolute top-[60%] left-[-3%]'>
+                  <div className='absolute top-[53%] left-[-3%]'>
                    <span><Svg4/></span>
 
                   </div>

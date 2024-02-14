@@ -12,7 +12,7 @@ import black13 from '../images/webp/black13.webp'
 import { Btn10, Btn11, Btn12, Btn13, Btn14, Btn15, Btn16, Btn17, Btn18, Btn19, Btn20, Btn21, Btn22, Btn23, Btn24, Btn32, Btn9, Svg7 } from './Icon'
 function Para() {
     return (
-        <section className='bg-[#00141B] mt-[-2px] overflow-x-clip relative'>
+        <section className='bg-[#00141B] mt-[-2px] overflow-x-clip relative' id='por'>
             <div className='container z-20 relative mx-auto max-w-[1140px] px-[12px]'>
                 <div className='flex flex-row flex-wrap mx-[-12px] pt-[100px] pb-[150px] max-md:pb-[72px]'>
                     <div className='w-full lg:w-[50%] px-[12px] z-20 flex max-lg:justify-center'>
@@ -95,7 +95,7 @@ function Para() {
                         </div>
                         <div className='pt-[24px] hover:shadow-8xl flex mt-[24px]   max-sm:pr-[38px] max-sm:pl-[26px]  gap-[37px] pb-[24px] pr-[56px] pl-[56px] rounded-[16px] border-[0.5px] bg-[#041C22] max-w-[374px] border-[#236069]'>
                             <div className='w-[68px] hover:bg-[#051E23] cursor-pointer h-[68px] rounded-[73px] bg-[#0F2F28] flex justify-center items-center  '>
-                                <span><Btn9/></span>
+                                <span><Btn9 /></span>
 
                             </div>
                             <div className='flex flex-col '>
@@ -105,7 +105,7 @@ function Para() {
                         </div>
                         <div className='pt-[24px] hover:shadow-8xl max-sm:pr-[38px] max-sm:pl-[26px] flex mt-[24px] gap-[37px] pb-[24px] pr-[56px] pl-[56px] rounded-[16px] border-[0.5px] bg-[#041C22] max-w-[374px] border-[#236069]'>
                             <div className='w-[68px] cursor-pointer hover:bg-[#051E23] h-[68px] rounded-[73px] bg-[#0F2F28] flex justify-center items-center  '>
-                            <span><Btn10/></span>
+                                <span><Btn10 /></span>
 
                             </div>
                             <div className='flex flex-col '>
@@ -145,11 +145,11 @@ function Para() {
                             <p className='max-w-[401px] font-Inter font-[500] text-[16px] leading-[16px] text-[#CDD2D3] pt-[16px]'>Diseño predeterminado, atractivo y fácil de navegar, tecnología HTLM5.</p>
                             <h3 className='font-Anton font-[400] text-[48px] leading-[57.6px]  text-white pt-[32px]'>$5000</h3>
                             <div className='flex gap-[8px] pt-[16px]'>
-                                <span><Btn11/></span>
+                                <span><Btn11 /></span>
                                 <p className='max-w-[387px] font-Inter font-[500] text-[16px] leading-[25.6px] text-[#CDD2D3]'>Disponibles Payku, Pix, Depósitos en Euros, Criptomonedas, Cargas manuales</p>
                             </div>
                             <div className='flex  gap-[8px] pt-[12px]'>
-                               <span><Btn12/></span>
+                                <span><Btn12 /></span>
                                 <div className='flex justify-center text-center'>
                                     <p className='max-w-[387px]  font-Inter font-[500] text-[16px] leading-[25.6px] text-[#CDD2D3]'>Control de RTP (controlás qué porcentaje pagar)</p>
                                 </div>
@@ -179,7 +179,7 @@ function Para() {
                                 <p className='max-w-[387px] font-Inter font-[500] text-[16px] leading-[25.6px] text-[#CDD2D3]'>Aplicación para Android y Windows de regalo.</p>
                             </div>
                             <div className='flex gap-[8px] pt-[12px]'>
-                               <span><Btn13/></span>
+                                <span><Btn13 /></span>
                                 <div className='flex justify-center text-center items-center'>
                                     <p className='max-w-[387px] font-Inter font-[500] text-[16px] leading-[25.6px] text-[#CDD2D3]'>Tiempo de creación 2 a 3 semanas</p>
 
@@ -189,14 +189,15 @@ function Para() {
                                 <button className='font-Inter text-nowrap aminate-pulse font-[700] text-[16px] border-[1px] hover:shadow-8xl border-white leading-[25px] pt-[10px] pr-[46px] pb-[13px] pl-[46px]  text-white rounded-[41px] relative flex items-center justify-center overflow-hidden bg-transparent  shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-white hover:text-[#00141B] before:duration-500 before:ease-out hover:shadow-[#63DCBA] hover:before:h-56 hover:before:w-56'>
                                     <span className='relative z-10'>Comprar ahora</span>
                                 </button>
-                                <span><Btn14/></span>
-
+                            <div className='absolute bottom-[-4px] left-[-4px]'> 
+                                <span><Btn14 /></span>
+                                </div>
 
                             </div>
                         </div>
                     </div>
                     <div className='absolute top-0 left-0'>
-                        <span><Btn15/></span>
+                        <span><Btn15 /></span>
                     </div>
 
                 </div>
@@ -256,18 +257,19 @@ function Para() {
                             <p className='max-w-[387px] font-Inter font-[500] text-[16px] leading-[25.6px] text-[#CDD2D3]'>Aplicación para Android y Windows de regalo.</p>
                         </div>
                         <div className='flex  gap-[8px] pt-[12px]'>
-                            <span><Svg7/></span>
+                            <span><Svg7 /></span>
                             <p className='max-w-[387px]  font-Inter font-[500] text-[16px] leading-[25.6px] text-[#CDD2D3]'>Tiempo de creación 2 a 3 semanas</p>
                         </div>
                         <div className='flex justify-center'>
-                            <div className='relative mb-[45px]'>
+                            <div className='relative z-40 mb-[45px]'>
                                 <div>
-                                    <button class="font-Inter mt-[40px] font-[700] text-[16px] text-white   hover:shadow-8xl leading-[25px] pt-[10px] pr-[46px] pb-[13px] pl-[46px]  rounded-[41px] bg-[#67E0B0] hover:bg-sky-950 border border-sky-400 border-b-4   overflow-hidden relative px-4 py-2   hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 group">
-                                        <span class="bg-sky-400 animate-pulse shadow-sky-400 absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
-                                        Comprar ahora
+                                    <button className='font-Inter mt-[40px]   font-[700] text-nowrap text-[16px] hover:shadow-8xl leading-[25px] pt-[10px] pr-[46px] pb-[13px] pl-[46px] bg-gradient-to-l from-[#51C8EF] to-[#7AF57A] text-[#00141B] rounded-[41px] relative flex  items-center justify-center overflow-hidden bg-gray-800  shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-black hover:text-white before:duration-500 before:ease-out hover:shadow-[#63DCBA] hover:before:h-56 hover:before:w-56'>
+                                        <span className='relative z-20'>Comprar ahora</span>
                                     </button>
                                 </div>
-                               <span><Btn16/></span>
+                                <div className='absolute top-[75%] left-[-3%]'>
+                                    <span className='-z-10'><Btn16 /></span>
+                                </div>
 
                             </div>
 
@@ -295,17 +297,18 @@ function Para() {
                             <p className='max-w-[364px] font-Inter font-[500] text-[16px] leading-[25.6px] text-[#CFD5D5] pt-[16px]'>Diseño totalmente personalizado. Contáctanos para un presupuesto.</p>
                             <h3 className='font-Anton font-[400] max-md:text-[30px] max-md:pt-[10px] text-[48px] leading-[57.6px] text-white pt-[32px]'>Consultar precio</h3>
                             <div className='flex gap-[8px] pt-[16px]'>
-                               <span><Btn17/></span>
+                                <span><Btn17 /></span>
                                 <h4 className='font-Inter font-[500] text-[16px] leading-[25.6px] text-[#CED3D4] '>Personalizable </h4>
                             </div>
                             <div className='relative z-20 mb-[45px]'>
                                 <div>
-                                    <button class="font-Inter text-nowrap mt-[40px] font-[700] text-[16px] text-white   hover:shadow-8xl leading-[25px] pt-[10px] pr-[46px] pb-[13px] pl-[46px]  rounded-[41px] bg-transparent hover:bg-sky-950 border-[0.5px] border-white  border-b-4   overflow-hidden relative px-4 py-2   hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 group">
-                                        <span class="bg-sky-400 animate-pulse shadow-sky-400 absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
+                                    <button className='font-inter mt-[40px] font-[700] hover:bg-white text-nowrap hover:text-[#062023] duration-300 hover:shadow-8xl text-[16px] border-[1px] rounded-[41px]  text-white border-white pt-[13px] pb-[13px]  pr-[46px] pl-[46px] bg-transparent '>
                                         Comprar ahora
                                     </button>
                                 </div>
-                              <span><Btn18/></span>
+                                <div className='absolute top-[77%] left-[-1%]'>
+                                    <span><Btn18 /></span>
+                                </div>
 
 
                             </div>
@@ -328,7 +331,7 @@ function Para() {
                                     <button className='font-Inter    font-[700] text-[16px] leading-[25px] pt-[10px] pr-[46px] pb-[13px] pl-[46px] bg-transparent border-[2px] border-white text-[#FFFFFF] hover:shadow-8xl hover:bg-gradient-to-l hover:from-[#51C8EF] hover:to-[#7AF57A]  rounded-[41px]   animate-pulse overflow-hidden bg-gray-800  shadow-2xl transition-all   hover:bg-transparent hover:text-white before:duration-500 before:ease-out hover:shadow-[#63DCBA] '>
                                         <span className='relative z-10'>Rcasinovip</span>
                                     </button>
-                                   <span><Btn19/></span>
+                                    <span><Btn19 /></span>
 
 
 
@@ -344,7 +347,7 @@ function Para() {
                                     <button className='font-Inter    font-[700] text-[16px] leading-[25px] pt-[10px] pr-[46px] pb-[13px] pl-[46px] bg-transparent border-[2px] border-white text-[#FFFFFF] hover:shadow-8xl hover:bg-gradient-to-l hover:from-[#51C8EF] hover:to-[#7AF57A]  rounded-[41px]   animate-pulse overflow-hidden bg-gray-800  shadow-2xl transition-all   hover:bg-transparent hover:text-white before:duration-500 before:ease-out hover:shadow-[#63DCBA] '>
                                         <span className='relative z-10'>Rcasinovip</span>
                                     </button>
-                                   <span><Btn20/></span>
+                                    <span><Btn20 /></span>
 
 
 
@@ -360,7 +363,7 @@ function Para() {
                                     <button className='font-Inter    font-[700] text-[16px] leading-[25px] pt-[10px] pr-[46px] pb-[13px] pl-[46px] bg-transparent border-[2px] border-white text-[#FFFFFF] hover:shadow-8xl hover:bg-gradient-to-l hover:from-[#51C8EF] hover:to-[#7AF57A]  rounded-[41px]   animate-pulse overflow-hidden bg-gray-800  shadow-2xl transition-all   hover:bg-transparent hover:text-white before:duration-500 before:ease-out hover:shadow-[#63DCBA] '>
                                         <span className='relative z-10'>Rcasinovip</span>
                                     </button>
-                                   <span><Btn21/></span>
+                                    <span><Btn21 /></span>
 
 
 
@@ -373,26 +376,26 @@ function Para() {
                     <p className='font-Inter font-[600] max-sm:text-[10px] text-[16px] leading-[25.6px] max-w-[883px] text-white '>Clientes satisfechos que confiaron en Exclusive Games y han disfrutado de emocionantes experiencias de juego.
                         <br />Ahora, la próxima apuesta está en tus manos.
                         <br />Elige ganar. Elige exclusive game.</p></div>
-                
+
                 <div>
 
                 </div>
             </div>
-        <div className='absolute top-[53%] left-[0%]'>
-        <span><Btn22/></span>
-        </div>
-        <div className='absolute top-[64%] left-[60%] z-0'>
-        <span><Btn23/></span>
+            <div className='absolute top-[53%] left-[0%]'>
+                <span><Btn22 /></span>
+            </div>
+            <div className='absolute top-[64%] left-[60%] z-0'>
+                <span><Btn23 /></span>
 
-        </div>
-        <div className='absolute top-[62%] z-0 left-[76%]'>
-        <span><Btn24/></span>
+            </div>
+            <div className='absolute top-[62%] z-0 left-[76%]'>
+                <span><Btn24 /></span>
 
-        </div>
-        <div className='absolute z-0 top-[-16%] left-[0%]'>
-        <span><Btn32/></span>
+            </div>
+            <div className='absolute z-0 top-[-16%] left-[0%]'>
+                <span><Btn32 /></span>
 
-        </div>
+            </div>
         </section>
     )
 }
