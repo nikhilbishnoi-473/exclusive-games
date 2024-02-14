@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap');
+
+.bg_image{
+  background-image: url(../src/images/image1.png);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg_image_1{
+  background-image: url(../src/images/Rectangle10.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+.svg_1:hover svg path{
+  fill: brown;
+}
+.bg_image_2{
+  background-image: url(../src/images/bg.png);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.bg_image_3{
+  background-image: url(../src/images/bg_image.png);
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bg_image_4{
+  background-image: url(../src/images/bg2.png);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
+.elips{
+   
+    opacity: 0.5;
+    border-radius: 50%;
+    background: linear-gradient(306.99deg, #51C8EF -13.72%, #7AF57A 102.02%);
+    filter: blur(124px);
+    z-index: 5;
+    
+     
+}
+.bg_image_5{
+ 
+  background-image: url(./images/bg-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.navhide{
+  overflow: hidden;
+}
+
